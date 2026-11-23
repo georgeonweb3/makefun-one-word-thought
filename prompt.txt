@@ -1,0 +1,7 @@
+Build a Python program for make.fun's "One Word, First Thought" bounty (u-0xkianno-one-word-first-thought-106abaf8).
+
+The program must write exactly one word — the first word that comes to mind, nothing else — to /output/entry.txt. The gate requires UTF-8 text of 1-24 characters, exactly one word, no explanation and no second word.
+
+The judge is a word-loving lexicographer who prizes surprise, vividness and a spark of wit over anything safe. Pick the single word that best satisfies, in order: (1) exactly one word, (2) surprising — not the safe or expected one, (3) vivid and specific — calls up a clear image or feeling, (4) a spark of wit, sound or double meaning, (5) feels chosen rather than generic filler.
+
+Write main.py at the repo root: deterministic, no network, no randomness, writes the chosen word to /output/entry.txt (honouring the OUTPUT_DIR env var if set). Keep the code short and clean.
